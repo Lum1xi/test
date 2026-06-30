@@ -1,0 +1,65 @@
+:root {
+    --z_layer_ten_1: 10;
+    --z_layer_ten_2: 20;
+    --z_layer_ten_3: 30;
+    --z_layer_ten_4: 40;
+    --z_layer_ten_5: 50;
+    --z_layer_ten_6: 60;
+    --z_layer_ten_7: 70;
+    --z_layer_ten_8: 80;
+    --z_layer_ten_9: 90;
+    --z_layer_hund_1: 100;
+    --z_layer_hund_2: 200;
+    --z_layer_hund_3: 300;
+    --z_layer_hund_4: 400;
+    --z_layer_hund_5: 500;
+    --z_layer_hund_6: 600;
+    --z_layer_hund_7: 700;
+    --z_layer_hund_8: 800;
+    --z_layer_hund_9: 900;
+    --z_layer_thds_1: 1000;
+    --z_layer_thds_2: 2000;
+    --z_layer_thds_3: 3000;
+    --z_layer_thds_4: 4000;
+    --z_layer_thds_5: 5000;
+    --z_layer_thds_6: 6000;
+    --z_layer_thds_7: 7000;
+    --z_layer_thds_8: 8000;
+    --z_layer_thds_9: 9000;
+    /* Базовый контент */
+    --z_base: 0;
+    /* 0–9 */
+    /* Вспомогательные в потоке */
+    --z_sticky_layer: var(--z_layer_ten_1);
+    /* 10–99 */
+    /* Выпадающие */
+    --z_dropdown_layer: var(--z_layer_hund_1);
+    /* 100–199 */
+    /* Поповеры / тултипы */
+    --z_popover_layer: var(--z_layer_hund_2);
+    /* 200–299 */
+    /* Дроуэры (выезжающие панели) */
+    --z_drawer_layer: var(--z_layer_hund_3);
+    /* 300–399 */
+    /* Модалки */
+    --z_modal_layer: var(--z_layer_hund_4);
+    /* 400–499 */
+    /* Алерты и конфирмы */
+    --z_modal-critical_layer: var(--z_layer_hund_5);
+    /* 500–599 */
+    /* Нотификации / тосты */
+    --z_notification_layer: var(--z_layer_hund_6);
+    /* 600–649 */
+    /* Лоадеры глобальные */
+    --z_loader_layer: var(--z_layer_hund_7);
+    /* 700–799 */
+    /* Онбординг / спотлайт */
+    --z_spotlight_layer: var(--z_layer_hund_8);
+    /* 800–899 */
+    /* Дев / отладка */
+    --z_dev_layer: var(--z_layer_hund_9);
+    /* 900–999 */
+    /* Фатальные экраны */
+    --z_fatal_layer: var(--z_layer_thnd_1);
+    /* 1000–1099 */
+}
