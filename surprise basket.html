@@ -1,0 +1,911 @@
+<html lang="ru-RU" dir="ltr" style="--50001: url(https://web-static.cdn.boltgaming.io/store2/properties/defaultItems/messages/imageWarning.webp); --50002: url(https://web-static.cdn.boltgaming.io/store2/properties/defaultItems/messages/imageWarning2.webp); --50003: url(https://web-static.cdn.boltgaming.io/store2/properties/defaultItems/messages/imageWarning2.webp); --desktopAppBackgroundImage: url(https://web-static.cdn.boltgaming.io/store2/section_battlepass-557590f76fd6/bgSeason11.webp); --mobileAppDefaultBackgroundImage: url(https://web-static.cdn.boltgaming.io/store2/defaultBG.png); --mobileAppBackgroundImage: url(https://web-static.cdn.boltgaming.io/store2/section_battlepass-557590f76fd6/bgSeason11.webp); --giftPostcardGoldBackgroundMobile: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftPostcardGoldBackgroundMobile.webp); --giftPostcardGoldBackgroundDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftPostcardGoldBackgroundDesktop.webp); --giftBackgroundMobile: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftMobileBG.webp); --giftBackgroundDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftBG.webp); --giftPopUpImageDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftImagePopUp.webp); --desktopGiftLoginPopupImage: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftImageNew.webp); --mobileGiftLoginPopupImage: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftImage.webp); --giftGreetingBackgroundMobile: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftBackgroundMobile.webp); --giftGreetingBackgroundDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/greetingBG.webp); --giftStatusPageGoldBackground: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftStatusPageGoldBackground.webp); --desktopGiftUserIdBackground: url(https://web-static.cdn.boltgaming.io/store2/properties/desktopGiftUserIdBackground.webp); --adultConfirmPopupBackground: url(https://web-static.cdn.boltgaming.io/store2/properties/images/bg/adultConfirmPopupBackground.webp); overflow: auto;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#323752">
+  <meta name="description" content="Добро пожаловать в официальный интернет-магазин Standoff 2. Здесь вы можете купить Голду, уровни Battle Pass, а также следить за специальными предложениями">
+  <title>Магазин | Standoff 2</title>
+  <link rel="icon" href="https://store.standoff2.com/favicon.ico">
+  <link rel="shortcut icon" href="https://store.standoff2.com/favicon.ico">
+  <link rel="stylesheet" href="./1/web-static.cdn.boltgaming.io/store2/styles/fonts/store2.0_fonts_v0.0.1.css">
+  <link rel="stylesheet" href="./1/web-static.cdn.boltgaming.io/store2/styles/prod/root_css/root_v1.2.2.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/1.2c50cda7.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/10.f788a99e.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/5.bad9cde5.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/9.cd87e280.css">
+  <style>
+    [data-login-toggle][hidden],
+    [data-auth-modal][hidden],
+    [data-login-menu][hidden],
+    [data-profile-toggle][hidden],
+    [data-auth-error][hidden],
+    [data-auth-help-panel][hidden],
+    [data-auth-result-help][hidden],
+    [data-auth-loading-help][hidden],
+    [data-auth-screen][hidden],
+    [data-auth-open-help][hidden],
+    [data-social-modal][hidden],
+    [data-language-modal][hidden],
+    [data-promo-modal][hidden],
+    [data-gift-modal][hidden],
+    [data-gift-screen][hidden],
+    [data-gift-help-panel][hidden],
+    [data-gift-error][hidden],
+    [data-delete-confirm-modal][hidden],
+    [data-auth-history-wrapper][hidden],
+    [data-menu-switch-account][hidden],
+    [data-menu-login][hidden],
+    [data-cart-badge][hidden],
+    [data-language-check][hidden],
+    [data-promo-error][hidden],
+    [data-promo-reset][hidden],
+    [data-promo-clear][hidden],
+    [data-promo-submit][hidden],
+    [data-cart-empty][hidden],
+    [data-cart-items][hidden],
+    [data-cart-view][hidden],
+    [data-checkout-account-state][hidden],
+    [data-checkout-tooltip][hidden],
+    [data-checkout-notification-view][hidden] {
+      display: none !important;
+    }
+
+    .app-login-menu {
+      position: fixed;
+      z-index: calc(var(--z_sticky_layer) + var(--z_layer_ten_1));
+    }
+
+    .app-button-condensed {
+      font-family: var(--font_family);
+      font-stretch: 25%;
+      font-variation-settings: var(--font_variation_primary) !important;
+    }
+
+    .app-login-menu [data-menu-link],
+    .app-login-menu [data-menu-action],
+    [data-language-option],
+    [data-social-link],
+    .app-auth-history-item {
+      cursor: pointer;
+    }
+
+    .app-modal-popup {
+      width: calc(100% - 32px);
+      max-width: 360px;
+    }
+
+    .app-language-popup {
+      max-width: 320px;
+    }
+
+    .app-nav-icon-button {
+      background: transparent;
+      border: 0;
+      padding: 0;
+    }
+
+    .app-promo-popup {
+      max-width: 452px;
+    }
+
+    .app-promo-popup ._fNd2mrq {
+      white-space: nowrap;
+    }
+
+    [data-page-flash] {
+      display: none;
+    }
+
+    [data-social-item]:not([data-social-link]) {
+      cursor: default;
+    }
+
+    .app-loading-avatar {
+      background-color: #000;
+    }
+
+    .app-loading-avatar .R5wuj1zi,
+    .app-loading-avatar .YUbnVnw5 {
+      margin: 0;
+      border-top-color: var(--white_color_100);
+    }
+
+    .app-gift-modal-stage {
+      position: relative;
+      width: calc(100% - 32px);
+      max-width: 452px;
+      height: calc(100vh - 32px);
+      max-height: calc(100vh - 32px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      overflow: visible;
+    }
+
+    .app-gift-screen {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+      padding: 16px 0;
+      opacity: 0;
+      transform: scale(0.84);
+      transition: opacity 220ms ease, transform 220ms ease;
+      pointer-events: none;
+    }
+
+    .app-gift-screen-active {
+      opacity: 1;
+      transform: scale(1);
+      pointer-events: auto;
+    }
+
+    .app-gift-screen-entering,
+    .app-gift-screen-leaving {
+      opacity: 0;
+      transform: scale(0.84);
+      pointer-events: none;
+    }
+
+    .app-gift-screen .Z5FPd0mM {
+      width: 100%;
+      max-height: calc(100vh - 32px);
+      overflow: visible;
+    }
+
+    .app-gift-screen[data-gift-screen="recipient"],
+    .app-gift-screen[data-gift-screen="loading"],
+    .app-gift-screen[data-gift-screen="found"] {
+      overflow-x: visible;
+      overflow-y: auto;
+    }
+
+    .app-gift-screen[data-gift-screen="intro"] {
+      overflow: visible;
+    }
+
+    .app-gift-intro {
+      overflow: visible;
+    }
+
+    .app-gift-intro .m3DYkRY4 {
+      overflow: visible;
+    }
+
+    .app-gift-intro .z_Mc9Qul {
+      max-width: none;
+      width: 130%;
+      margin-left: -15%;
+      margin-right: -15%;
+      pointer-events: none;
+    }
+
+    .app-gift-recipient .JXxuvUFY,
+    .app-gift-found .JXxuvUFY {
+      width: 100%;
+    }
+
+    .app-gift-recipient .XJQTerSG {
+      margin-top: 16px;
+      align-items: stretch;
+    }
+
+    .app-gift-recipient .gkuIo3uG,
+    .app-gift-found .gkuIo3uG {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .app-gift-recipient ._2VBz6gl0 {
+      display: block;
+      width: 100%;
+      max-width: 368px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .app-gift-found .QGx8_2K6 {
+      text-align: center;
+    }
+
+    @media (min-width: 980px) {
+      .TzCmTdzK.xvdinikP {
+        padding: 0 calc(var(--indent_xl) + 8px);
+      }
+
+      .Mrvmdg9y.xvdinikP {
+        gap: 12px;
+      }
+
+      .BJuG1PY5.qb3JIBCc {
+        gap: 6px;
+      }
+
+      .ZXGNIV7a {
+        margin-left: 28px;
+      }
+    }
+
+    .app-delete-modal {
+      width: calc(100% - 32px);
+      max-width: 520px;
+    }
+
+    .app-delete-modal .PQK2z0hH {
+      width: 100%;
+    }
+
+    .app-delete-modal .lCmKZZYo {
+      gap: 12px;
+    }
+
+    html[data-surprise-cart-hydrating="true"] .OPlcbUWN.pz7n1D_0.zfI4wZt_,
+    html[data-surprise-cart-hydrating="true"] .lc3Fovsf[data-cart-view="checkout"],
+    html[data-surprise-cart-hydrating="true"] .UkLmxpEv {
+      visibility: hidden;
+    }
+
+    @media (min-width: 980px) {
+      body[data-page="cart"] .BJuG1PY5.qb3JIBCc {
+        gap: 16px;
+      }
+
+      body[data-page="cart"] .ZXGNIV7a {
+        margin-left: 40px;
+      }
+
+      body[data-page="cart"] .app-delete-modal {
+        max-width: 640px;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] .zasQGlOi {
+        min-width: 0;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: none;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] .kvWPf6X4,
+      [data-cart-view="cart"][data-cart-state="empty"] .GoSkiXRM {
+        width: 100%;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] [data-cart-empty] {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        min-height: 383px;
+        padding: 0 32px;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] .K97MEhUx,
+      [data-cart-view="cart"][data-cart-state="empty"] .NPoX5pGl {
+        display: none !important;
+      }
+    }
+
+    .app-cart-page {
+      min-height: calc(100vh - 96px);
+    }
+
+    .app-checkout-tooltip-title {
+      display: block;
+      margin-bottom: 0;
+      color: var(--white_color_60);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 110%;
+      letter-spacing: 0.14px;
+    }
+
+    .qb2RBHsM.ThiKboOM {
+      transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1), opacity 420ms cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform, opacity;
+    }
+
+    .C_u6qFsO,
+    .C_u6qFsO:visited,
+    .C_u6qFsO:hover,
+    .C_u6qFsO:active {
+      color: inherit;
+    }
+
+    [data-cart-summary] button:disabled {
+      opacity: 0.45;
+      cursor: default;
+      pointer-events: none;
+    }
+  </style>
+  <script>
+    document.documentElement.dataset.surpriseCartHydrating = "true";
+  </script>
+</head>
+<body>
+  <div class="lc3Fovsf" data-cart-view="checkout" hidden>
+    <div class="RLZmUFOt" data-checkout-notification-view hidden>
+      <div class="n9riyB4D" data-checkout-notifications></div>
+    </div>
+    <div class="OPlcbUWN OZpbqN3j kM_EAIxR">
+      <div class="S_OHRHgY undefined">
+        <div class="OPlcbUWN VXPe6irw">
+          <div class="UX0C6Mcy">
+            <div class="IpEDWIMR">
+              <button type="button" class="M2Dqb4NH" data-checkout-back>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.8" stroke-width="2.361" d="m10.734 1.667-9.356 8.687 9.356 8.687" style="fill: none;"></path>
+                </svg>
+                <div class="AcpYUKam" data-checkout-back-label>Назад</div>
+              </button>
+              <div class="P4YOtgql">
+                <div class="gepQJevF at26SedK LfHoLSNI">
+                  <div role="button" tabindex="0" class="UhqtQZoq"></div>
+                  <img src="https://web-static.cdn.boltgaming.io/store2/section_battlepass-557590f76fd6/logo.webp" alt="STANDOFF 2">
+                </div>
+              </div>
+              <button type="button" class="_gyKfkwN" data-checkout-close>
+                <div class="Eb4claRW" data-checkout-close-label>Закрыть</div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                  <path fill="#fff" d="M1.75 1.75a.854.854 0 0 1 1.209 0l13.29 13.291a.855.855 0 0 1-1.207 1.209L1.75 2.959a.854.854 0 0 1 0-1.209"></path>
+                  <path fill="#fff" d="M16.25 1.75a.854.854 0 0 0-1.209 0L1.751 15.042a.854.854 0 0 0 1.208 1.208l13.29-13.291a.854.854 0 0 0 0-1.209"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Wr2R1dhb">
+        <div class="_pNCFw46">
+          <div class="RSmwQRBS" data-checkout-title>Оплата заказа</div>
+          <div class="vVGMDbQ_">
+            <div class="cjjK74UX" data-checkout-account-state="loading">
+              <div class="gepQJevF kxvHEpBw">
+                <div role="button" tabindex="0" class="UhqtQZoq"></div>
+                <div class="_k_ejJ8r">
+                  <div class="rGkMKa_9">
+                    <div class="EF8NZxHb OMeIxbHF app-loading-avatar" style="width: 48px; height: 48px;">
+                      <div class="R5wuj1zi YUbnVnw5"></div>
+                    </div>
+                  </div>
+                  <div class="SvBse0wZ">
+                    <p class="FvXL3T03" data-checkout-loading-id>ID</p>
+                    <p class="nBK_VWkI" data-checkout-loading-name>Поиск ...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cjjK74UX" data-checkout-account-state="resolved" hidden>
+              <div class="gepQJevF kxvHEpBw">
+                <div role="button" tabindex="0" class="UhqtQZoq"></div>
+                <div class="_k_ejJ8r">
+                  <div class="rGkMKa_9">
+                    <div class="EF8NZxHb OMeIxbHF" style="width: 48px; height: 48px;">
+                      <img class="VNznsh1o" src="" alt="user avatar" data-checkout-user-avatar>
+                    </div>
+                  </div>
+                  <div class="SvBse0wZ">
+                    <p class="FvXL3T03" data-checkout-user-id>ID</p>
+                    <p class="nBK_VWkI" data-checkout-user-name></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="yefkHp_Q">
+            <ul class="lhcPxXZq" data-checkout-items></ul>
+          </div>
+        </div>
+        <form class="ySpnrHBW mc5vTECh" data-checkout-form novalidate>
+          <div>
+            <div class="ZuP9LdlX">
+              <div class="TtsrjSZI">
+                <h3 class="BU7XOEVz" data-checkout-payment-title>Способ оплаты</h3>
+                <button type="button" class="p1KrGb3a GpkA5COK LrAJcY3r _uoeB74E" disabled style="font-size: 12px;">
+                  <div class="OPlcbUWN F_GdC3qL OZpbqN3j NE2K7NGD" data-checkout-edit-label>Редактировать</div>
+                </button>
+              </div>
+              <div class="mvjdWu9o">
+                <div class="CVi6VMY_">
+                  <button type="button" class="bbizXSWV Dr68TIAM" style="background-color: rgba(255, 255, 255, 0.04); color: rgba(255, 255, 255, 0.8);">
+                    <div class="kqsa2IFc Dr68TIAM"></div>
+                    <div class="dKXUercm">
+                      <p class="WISmyMZa" data-checkout-card-label>Новая карта </p>
+                      <img class="lsRjWu0l" src="https://web-static.cdn.boltgaming.io/store2/properties/cardsLogo/addCard.png" alt="">
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="IZ6zqhjy vZNwTR_J">
+            <div class="omJ936GU">
+              <p class="Mf1mqiUS y8Jk5_vA" data-checkout-email-label>EMAIL ДЛЯ ЧЕКА</p>
+              <div class="YfjH2i5L">
+                <input name="email" type="email" required class="Euw1rUj0" placeholder="mail@adress.com" value="" data-checkout-email>
+              </div>
+            </div>
+            <div class="YxzQC3Em">
+              <input id="checkout-subscribe" type="checkbox" checked data-checkout-subscribe>
+              <label class="tttJSskj" for="checkout-subscribe"> </label>
+              <label class="vMpeGj8U" for="checkout-subscribe" data-checkout-subscribe-label>Получать информацию об акциях и скидках</label>
+            </div>
+          </div>
+          <div class="rdGd891q">
+            <div class="KSMgOlcu">
+              <p class="iN7sXyJm" data-checkout-count-label>0 товаров</p>
+              <p class="jyBeTNVQ" data-checkout-total-value>0 ₽</p>
+            </div>
+            <button type="submit" class="p1KrGb3a dVZlJ3Vu LrAJcY3r cSvxyoPt">
+              <div class="OPlcbUWN F_GdC3qL OZpbqN3j NE2K7NGD" data-checkout-pay-label>Оплатить</div>
+            </button>
+          </div>
+          <p class="paaLkPk5 uX9pS_L2">
+            <span data-checkout-legal-prefix>Нажимая кнопку "Оплатить", Вы подтверждаете, что ознакомились и согласны с положениями </span>
+            <a class="C_u6qFsO" href="#" target="_blank" rel="noreferrer" data-checkout-offer-link>Публичной оферты</a>
+            <span data-checkout-legal-conjunction> и </span>
+            <a class="C_u6qFsO" href="#" target="_blank" rel="noreferrer" data-checkout-privacy-link>Политикой конфиденциальности</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="root">
+    <div class="app">
+      <div class="GceCE6fm lsp0K2MI app-cart-page" style="background-image: url(&quot;https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftBG.webp&quot;); background-color: rgb(13, 14, 18);">
+        <div class="DrnsdBhA undefined">
+          <div class="OPlcbUWN VXPe6irw">
+            <header class="TzCmTdzK xvdinikP">
+              <div class="rH6IKZLb xvdinikP">
+                <div class="gepQJevF at26SedK iTphCjeG xvdinikP">
+                  <div role="button" tabindex="0" class="UhqtQZoq"></div>
+                  <img src="https://web-static.cdn.boltgaming.io/store2/section_battlepass-557590f76fd6/logo.webp" alt="STANDOFF 2">
+                </div>
+              </div>
+              <div class="Mrvmdg9y xvdinikP">
+                <div class="BJuG1PY5 qb3JIBCc">
+                  <a class="Wpu5eVfc Q2Jo56if" href="./surprise battle pass.html">BATTLE PASS</a>
+                  <a class="Wpu5eVfc Q2Jo56if" href="./surprise gold.html">GOLD</a>
+                  <a class="Wpu5eVfc Q2Jo56if y3GrUBsU" href="./surprise basket.html" aria-current="page">
+                    <div class="Q2Jo56if">
+                      <img class="wVIyg1Xu" alt="browser" src="https://web-static.cdn.boltgaming.io/store2/navbarIcons/CartIcon.svg">
+                    </div>
+                  </a>
+                  <button type="button" class="p1KrGb3a EZUDc50g LrAJcY3r">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 18">
+                      <path fill="#fff" d="M1.75 1.75a.854.854 0 0 1 1.209 0l13.29 13.291a.855.855 0 0 1-1.207 1.209L1.75 2.959a.854.854 0 0 1 0-1.209"></path>
+                      <path fill="#fff" d="M16.25 1.75a.854.854 0 0 0-1.209 0L1.751 15.042a.854.854 0 0 0 1.208 1.208l13.29-13.291a.854.854 0 0 0 0-1.209"></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </header>
+          </div>
+        </div>
+
+        <div class="OPlcbUWN pz7n1D_0 zfI4wZt_" data-cart-view="cart">
+          <div class="OPlcbUWN OZpbqN3j zasQGlOi">
+            <div class="hmV1_RKT">
+              <div class="K97MEhUx">
+                <h3 class="HuK5qjhr FPvMjGnG">купить в подарок</h3>
+              </div>
+              <div class="OPlcbUWN F_GdC3qL OZpbqN3j hzCfzFL2 sdrmxeK9" style="width: 100%;">
+                <div class="cjjK74UX ZzuZorLj">
+                  <div class="_k_ejJ8r">
+                    <div class="rGkMKa_9">
+                      <div class="EF8NZxHb OMeIxbHF" style="width: 48px; height: 48px;">
+                        <img class="VNznsh1o" src="http://melbicom.avatars.cdn.boltgaming.io/x64/_de/_default_1_33" alt="user avatar">
+                      </div>
+                    </div>
+                    <div class="SvBse0wZ">
+                      <p class="FvXL3T03">ID</p>
+                      <p class="nBK_VWkI"></p>
+                    </div>
+                  </div>
+                  <div class="b9W5I7Us">
+                    <button type="button" class="p1KrGb3a EZUDc50g LrAJcY3r YycmrpGK">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="YycmrpGK">
+                        <g clip-path="url(#CycleIcon_svg__a)">
+                          <path fill="#fff" d="m19 8-4 4h3c0 3.31-2.69 6-6 6a5.9 5.9 0 0 1-2.8-.7l-1.46 1.46A7.93 7.93 0 0 0 12 20c4.42 0 8-3.58 8-8h3zM6 12c0-3.31 2.69-6 6-6 1.01 0 1.97.25 2.8.7l1.46-1.46A7.93 7.93 0 0 0 12 4c-4.42 0-8 3.58-8 8H1l4 4 4-4z"></path>
+                        </g>
+                        <defs>
+                          <clipPath id="CycleIcon_svg__a">
+                            <path fill="#fff" d="M0 0h24v24H0z"></path>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="kvWPf6X4">
+                <div class="GoSkiXRM"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="OPlcbUWN OZpbqN3j NPoX5pGl" style="height: auto;">
+            <div class="FKVTeD1H"></div>
+            <div class="OPlcbUWN OZpbqN3j yiQ6u5Fh" style="height: auto; gap: 8px;">
+              <div class="IFBMxJpz r7omuw9A Ko3A88ya" data-cart-summary>
+                <div class="OPlcbUWN VXPe6irw OZpbqN3j eSxsrFVY">
+                  <div class="b0cLwab3">
+                    <div class="jecxSONw">
+                      <p class="t6S2b6uO">Скидка</p>
+                      <p class="JW8mUTbA">0 ₽</p>
+                    </div>
+                    <div class="jecxSONw">
+                      <p class="t6S2b6uO">Итого</p>
+                      <p class="XNSv2cJ9">0 ₽</p>
+                    </div>
+                  </div>
+                  <div class="OPlcbUWN qNnZ48LH">
+                    <button type="button" class="p1KrGb3a dVZlJ3Vu LrAJcY3r">
+                      <div class="OPlcbUWN F_GdC3qL OZpbqN3j NE2K7NGD">добавить пожелание</div>
+                    </button>
+                    <button type="button" class="p1KrGb3a I99moJsv LrAJcY3r">
+                      <div class="OPlcbUWN F_GdC3qL OZpbqN3j NE2K7NGD">без сообщения</div>
+                    </button>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./surprise.js"></script>
+</body>
+</html><html lang="ru-RU" dir="ltr" style="--50001: url(https://web-static.cdn.boltgaming.io/store2/properties/defaultItems/messages/imageWarning.webp); --50002: url(https://web-static.cdn.boltgaming.io/store2/properties/defaultItems/messages/imageWarning2.webp); --50003: url(https://web-static.cdn.boltgaming.io/store2/properties/defaultItems/messages/imageWarning2.webp); --desktopAppBackgroundImage: url(https://web-static.cdn.boltgaming.io/store2/section_battlepass-557590f76fd6/bgSeason11.webp); --mobileAppDefaultBackgroundImage: url(https://web-static.cdn.boltgaming.io/store2/defaultBG.png); --mobileAppBackgroundImage: url(https://web-static.cdn.boltgaming.io/store2/section_battlepass-557590f76fd6/bgSeason11.webp); --giftPostcardGoldBackgroundMobile: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftPostcardGoldBackgroundMobile.webp); --giftPostcardGoldBackgroundDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftPostcardGoldBackgroundDesktop.webp); --giftBackgroundMobile: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftMobileBG.webp); --giftBackgroundDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftBG.webp); --giftPopUpImageDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftImagePopUp.webp); --desktopGiftLoginPopupImage: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftImageNew.webp); --mobileGiftLoginPopupImage: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftImage.webp); --giftGreetingBackgroundMobile: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftBackgroundMobile.webp); --giftGreetingBackgroundDesktop: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/greetingBG.webp); --giftStatusPageGoldBackground: url(https://web-static.cdn.boltgaming.io/store2/properties/images/gift/giftStatusPageGoldBackground.webp); --desktopGiftUserIdBackground: url(https://web-static.cdn.boltgaming.io/store2/properties/desktopGiftUserIdBackground.webp); --adultConfirmPopupBackground: url(https://web-static.cdn.boltgaming.io/store2/properties/images/bg/adultConfirmPopupBackground.webp); overflow: auto;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#323752">
+  <meta name="description" content="Добро пожаловать в официальный интернет-магазин Standoff 2. Здесь вы можете купить Голду, уровни Battle Pass, а также следить за специальными предложениями">
+  <title>Магазин | Standoff 2</title>
+  <link rel="icon" href="https://store.standoff2.com/favicon.ico">
+  <link rel="shortcut icon" href="https://store.standoff2.com/favicon.ico">
+  <link rel="stylesheet" href="./1/web-static.cdn.boltgaming.io/store2/styles/fonts/store2.0_fonts_v0.0.1.css">
+  <link rel="stylesheet" href="./1/web-static.cdn.boltgaming.io/store2/styles/prod/root_css/root_v1.2.2.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/1.2c50cda7.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/10.f788a99e.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/5.bad9cde5.css">
+  <link rel="stylesheet" href="./surprise basket/store.standoff2.com/css/9.cd87e280.css">
+  <style>
+    [data-login-toggle][hidden],
+    [data-auth-modal][hidden],
+    [data-login-menu][hidden],
+    [data-profile-toggle][hidden],
+    [data-auth-error][hidden],
+    [data-auth-help-panel][hidden],
+    [data-auth-result-help][hidden],
+    [data-auth-loading-help][hidden],
+    [data-auth-screen][hidden],
+    [data-auth-open-help][hidden],
+    [data-social-modal][hidden],
+    [data-language-modal][hidden],
+    [data-promo-modal][hidden],
+    [data-gift-modal][hidden],
+    [data-gift-screen][hidden],
+    [data-gift-help-panel][hidden],
+    [data-gift-error][hidden],
+    [data-delete-confirm-modal][hidden],
+    [data-auth-history-wrapper][hidden],
+    [data-menu-switch-account][hidden],
+    [data-menu-login][hidden],
+    [data-cart-badge][hidden],
+    [data-language-check][hidden],
+    [data-promo-error][hidden],
+    [data-promo-reset][hidden],
+    [data-promo-clear][hidden],
+    [data-promo-submit][hidden],
+    [data-cart-empty][hidden],
+    [data-cart-items][hidden],
+    [data-cart-view][hidden],
+    [data-checkout-account-state][hidden],
+    [data-checkout-tooltip][hidden],
+    [data-checkout-notification-view][hidden] {
+      display: none !important;
+    }
+
+    .app-login-menu {
+      position: fixed;
+      z-index: calc(var(--z_sticky_layer) + var(--z_layer_ten_1));
+    }
+
+    .app-button-condensed {
+      font-family: var(--font_family);
+      font-stretch: 25%;
+      font-variation-settings: var(--font_variation_primary) !important;
+    }
+
+    .app-login-menu [data-menu-link],
+    .app-login-menu [data-menu-action],
+    [data-language-option],
+    [data-social-link],
+    .app-auth-history-item {
+      cursor: pointer;
+    }
+
+    .app-modal-popup {
+      width: calc(100% - 32px);
+      max-width: 360px;
+    }
+
+    .app-language-popup {
+      max-width: 320px;
+    }
+
+    .app-nav-icon-button {
+      background: transparent;
+      border: 0;
+      padding: 0;
+    }
+
+    .app-promo-popup {
+      max-width: 452px;
+    }
+
+    .app-promo-popup ._fNd2mrq {
+      white-space: nowrap;
+    }
+
+    [data-page-flash] {
+      display: none;
+    }
+
+    [data-social-item]:not([data-social-link]) {
+      cursor: default;
+    }
+
+    .app-loading-avatar {
+      background-color: #000;
+    }
+
+    .app-loading-avatar .R5wuj1zi,
+    .app-loading-avatar .YUbnVnw5 {
+      margin: 0;
+      border-top-color: var(--white_color_100);
+    }
+
+    .app-gift-modal-stage {
+      position: relative;
+      width: calc(100% - 32px);
+      max-width: 452px;
+      height: calc(100vh - 32px);
+      max-height: calc(100vh - 32px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      overflow: visible;
+    }
+
+    .app-gift-screen {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+      padding: 16px 0;
+      opacity: 0;
+      transform: scale(0.84);
+      transition: opacity 220ms ease, transform 220ms ease;
+      pointer-events: none;
+    }
+
+    .app-gift-screen-active {
+      opacity: 1;
+      transform: scale(1);
+      pointer-events: auto;
+    }
+
+    .app-gift-screen-entering,
+    .app-gift-screen-leaving {
+      opacity: 0;
+      transform: scale(0.84);
+      pointer-events: none;
+    }
+
+    .app-gift-screen .Z5FPd0mM {
+      width: 100%;
+      max-height: calc(100vh - 32px);
+      overflow: visible;
+    }
+
+    .app-gift-screen[data-gift-screen="recipient"],
+    .app-gift-screen[data-gift-screen="loading"],
+    .app-gift-screen[data-gift-screen="found"] {
+      overflow-x: visible;
+      overflow-y: auto;
+    }
+
+    .app-gift-screen[data-gift-screen="intro"] {
+      overflow: visible;
+    }
+
+    .app-gift-intro {
+      overflow: visible;
+    }
+
+    .app-gift-intro .m3DYkRY4 {
+      overflow: visible;
+    }
+
+    .app-gift-intro .z_Mc9Qul {
+      max-width: none;
+      width: 130%;
+      margin-left: -15%;
+      margin-right: -15%;
+      pointer-events: none;
+    }
+
+    .app-gift-recipient .JXxuvUFY,
+    .app-gift-found .JXxuvUFY {
+      width: 100%;
+    }
+
+    .app-gift-recipient .XJQTerSG {
+      margin-top: 16px;
+      align-items: stretch;
+    }
+
+    .app-gift-recipient .gkuIo3uG,
+    .app-gift-found .gkuIo3uG {
+      display: block;
+      width: 100%;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+
+    .app-gift-recipient ._2VBz6gl0 {
+      display: block;
+      width: 100%;
+      max-width: 368px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .app-gift-found .QGx8_2K6 {
+      text-align: center;
+    }
+
+    @media (min-width: 980px) {
+      .TzCmTdzK.xvdinikP {
+        padding: 0 calc(var(--indent_xl) + 8px);
+      }
+
+      .Mrvmdg9y.xvdinikP {
+        gap: 12px;
+      }
+
+      .BJuG1PY5.qb3JIBCc {
+        gap: 6px;
+      }
+
+      .ZXGNIV7a {
+        margin-left: 28px;
+      }
+    }
+
+    .app-delete-modal {
+      width: calc(100% - 32px);
+      max-width: 520px;
+    }
+
+    .app-delete-modal .PQK2z0hH {
+      width: 100%;
+    }
+
+    .app-delete-modal .lCmKZZYo {
+      gap: 12px;
+    }
+
+    html[data-surprise-cart-hydrating="true"] .OPlcbUWN.pz7n1D_0.zfI4wZt_,
+    html[data-surprise-cart-hydrating="true"] .lc3Fovsf[data-cart-view="checkout"],
+    html[data-surprise-cart-hydrating="true"] .UkLmxpEv {
+      visibility: hidden;
+    }
+
+    @media (min-width: 980px) {
+      body[data-page="cart"] .BJuG1PY5.qb3JIBCc {
+        gap: 16px;
+      }
+
+      body[data-page="cart"] .ZXGNIV7a {
+        margin-left: 40px;
+      }
+
+      body[data-page="cart"] .app-delete-modal {
+        max-width: 640px;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] .zasQGlOi {
+        min-width: 0;
+        margin-bottom: 0;
+        width: 100%;
+        max-width: none;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] .kvWPf6X4,
+      [data-cart-view="cart"][data-cart-state="empty"] .GoSkiXRM {
+        width: 100%;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] [data-cart-empty] {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+        min-height: 383px;
+        padding: 0 32px;
+      }
+
+      [data-cart-view="cart"][data-cart-state="empty"] .K97MEhUx,
+      [data-cart-view="cart"][data-cart-state="empty"] .NPoX5pGl {
+        display: none !important;
+      }
+    }
+
+    .app-cart-page {
+      min-height: calc(100vh - 96px);
+    }
+
+    .app-checkout-tooltip-title {
+      display: block;
+      margin-bottom: 0;
+      color: var(--white_color_60);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 110%;
+      letter-spacing: 0.14px;
+    }
+
+    .qb2RBHsM.ThiKboOM {
+      transition: transform 420ms cubic-bezier(0.22, 1, 0.36, 1), opacity 420ms cubic-bezier(0.22, 1, 0.36, 1);
+      will-change: transform, opacity;
+    }
+
+    .C_u6qFsO,
+    .C_u6qFsO:visited,
+    .C_u6qFsO:hover,
+    .C_u6qFsO:active {
+      color: inherit;
+    }
+
+    [data-cart-summary] button:disabled {
+      opacity: 0.45;
+      cursor: default;
+      pointer-events: none;
+    }
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+      ym(88565834, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+        ecommerce: "dataLayer",
+      });</script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KHDDWHX3 " height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><noscript><div><img src="https://mc.yandex.ru/watch/88565834" style="position: absolute; left: -9999px" alt=""/></div></noscript><script nonce="" src="https://www.google.com/recaptcha/enterprise.js?render=6Lcwe3gmAAAAAJcqHVT174aMRLqzxqfqfRNR7Ycn"></script><div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden;"><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-oakht1pj3x2j" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="https://www.google.com/recaptcha/enterprise/anchor?ar=1&amp;k=6Lcwe3gmAAAAAJcqHVT174aMRLqzxqfqfRNR7Ycn&amp;co=aHR0cHM6Ly9zdG9yZS5zdGFuZG9mZjIuY29tOjQ0Mw..&amp;hl=uk&amp;v=gTpTIWhbKpxADzTzkcabhXN4&amp;size=invisible&amp;anchor-ms=20000&amp;execute-ms=30000&amp;cb=suqb91cnibsl"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div><div id="__turnstile_container__" style="position: fixed; left: -9999px; top: -9999px; width: 1px; height: 1px; overflow: hidden;"><div><template shadowrootmode="closed"><iframe src="https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/g/turnstile/f/ov2/av0/rch/hj3bp/0x4AAAAAACMcgOFmqYgOpLQj/auto/fbE/new/invisible?lang=auto" allow="cross-origin-isolated; fullscreen; autoplay; keyboard-map; gamepad" sandbox="allow-same-origin allow-scripts allow-popups" id="cf-chl-widget-hj3bp" tabindex="-1" title="Віджет, що містить завдання безпеки Cloudflare" aria-hidden="true" style="border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; overflow: hidden; width: 1px; height: 1px; opacity: 0.01; position: fixed; left: 0px; top: 0px; visibility: visible; pointer-events: none; z-index: -1;"></iframe></template><input type="hidden" name="cf-turnstile-response" id="cf-chl-widget-hj3bp_response" value="1.0dF9t4Nc_ZLgEqpE3xubh9dYy2IwSp5eeS5dIPYbQkKLsQ3CtJxVPX37nmtc54YBemvg_TKYDTbwrjvGBLwJ-F86BW3EWwhEorEsQVAYbqwNY6hUx69LDKSxfk29SFFSw7dmEZAjrlfEmOJOLkY3f4AbRjxDBQq1I9I7Hb0OujWiMg_w13FMophNLT7xuBHAkJrVtDg4IZALKo8ayq-lGyB15HRacS2uEuz7dDg-ekN8DGSZCbvhGXmXd3CnsI4TEmoHyCa1HvlTZSCJRD4XqsuxQ4dXYuyZ2BVUDLXTnsZyUrXyOhQ9J_Ae03c9Qj4tqZYhGvRQQc1-7VKN_HPeCK5PQxvTt8XnbIzebVJR5UuYqtil1VjPGfccpv3MexJlHpHdPp6ec8FwKmhGexNZdPS9cv3eIu5qjxh-TrskaocAdfHjd1gWxlN7pba9s9jzXMH4tTEAa1Y-M70UcEuC5g.BiSp64WmELU1MxeOdCXuGQ.aa64498aafe3aa5f9db05bc1547d761403ed7028aacef86c0407908206ba0a26"></div></div><script src="./surprise.js"></script></body></html>
+      

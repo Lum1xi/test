@@ -1,0 +1,249 @@
+.yQp3xDdx {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 16px;
+    background: #16161A;
+    min-height: 383px;
+    justify-content: center;
+}
+
+.jjCpAfDG {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 765;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.YPbAq1Zb {
+    margin: 20px auto 0 auto;
+    max-width: 300px;
+    color: #959595;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ncoiSPjl {
+    margin: 40px auto 0 auto;
+    width: 100%;
+    max-width: 452px;
+    font-size: var(--font_size_default);
+}
+
+.ZtQ1CRWC {
+    text-align: center;
+    margin: 122px auto 122px auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+.wnzrBBtv {
+    margin-bottom: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 765;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.x6PAq4EM {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    color: #959595;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.InBNk2EE {
+    width: 100%;
+    height: 100%;
+    transform: translateY(100px);
+    animation: oNAq2V6X 0.2s ease-out forwards;
+    flex-grow: 1;
+    min-height: calc(100vh - 55px);
+}
+
+.PunOzSef {
+    max-width: 430px;
+    position: relative;
+    width: 100%;
+    min-height: 61px;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.o0ID9xbm {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px 20px;
+}
+
+.ZDZb3Par {
+    margin-bottom: 8px;
+    max-width: 430px;
+}
+
+.jArhX0m7 {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z_sticky_layer);
+}
+
+.QT5NIcxn {
+    padding: 6px 12px;
+}
+
+.uWhNNFHP {
+    padding: 0;
+}
+
+.mG4Lu1kF {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    background: #000;
+    height: 78px;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    align-content: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 765;
+    line-height: normal;
+    letter-spacing: 0.8px;
+}
+
+.brheK9i7 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 430px;
+    width: 100%;
+    min-height: 24px;
+}
+
+.F8p2LZwZ {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.F8p2LZwZ>h2 {
+    font-size: var(--font_size_l);
+}
+
+.cJFP4Fbh {
+    max-width: 430px;
+    flex-grow: 1;
+}
+
+.U2Y9_SGA {
+    padding: 0;
+    width: 19px;
+}
+
+.U2Y9_SGA svg {
+    width: 18px;
+    height: 18px;
+}
+
+@keyframes oNAq2V6X {
+    0% {
+        transform: translateY(100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.pz7n1D_0 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 90px auto 0;
+    gap: 20px;
+}
+
+.pz7n1D_0.zfI4wZt_ {
+    padding: 0 32px;
+}
+
+.xvYbwLQt {
+    border-radius: 8px 8px 0 0;
+}
+
+.heShWu93 {
+    box-shadow: 0px 0px 92px 0px #3D2400;
+    background-color: var(--black_color_100);
+}
+
+.LoLfYPX2 {
+    width: 390px;
+    position: relative;
+    height: 600px;
+    background-color: var(--black_color_100);
+    border-radius: 16px 0 16px 16px;
+    overflow: hidden;
+}
+
+.zasQGlOi {
+    margin-bottom: 120px;
+    margin-top: 20px;
+    min-width: 630px;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.NPoX5pGl {
+    max-width: 347px;
+    top: 0;
+    align-items: flex-start;
+}
+
+.yiQ6u5Fh {
+    max-width: 347px;
+    position: sticky;
+    top: 90px;
+    align-self: flex-start
+}
+
+.FKVTeD1H {
+    width: 100%;
+    height: 55px;
+}
+
+.Ko3A88ya {
+    /* margin-top: 55px; */
+}
+
+.tP78YQ6g {
+    /* position: absolute; */
+    bottom: 0;
+}
+
+.VTUXRBMl {
+    /* background-color: green; */
+}
+
+/*# sourceMappingURL=9.cd87e280.css.map*/
