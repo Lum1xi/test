@@ -1,0 +1,1 @@
+chrome-extension://3c675abc-d0dc-4319-95fc-a9d394278963/web_accessible_resources/google-analytics_analytics.js
